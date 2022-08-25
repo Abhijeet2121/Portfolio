@@ -1,0 +1,22 @@
+.footer-container{
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: 1fr;
+
+}
+
+.contact-container a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-container a:hover{
+    cursor: pointer;
+    color: #eaeaea;
+}

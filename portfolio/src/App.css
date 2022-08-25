@@ -1,0 +1,13 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-Header{
+  padding: 15px 30px; 
+  background-image: url(https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}

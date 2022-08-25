@@ -1,0 +1,47 @@
+.certificate{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.certificate-container{
+    padding: 15px 30px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    font-family:'teko';
+    gap: 20px;
+}
+
+.certificate-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 300px; 
+    border: 2px solid white;
+    border-radius: 9px;
+
+    img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .btn{
+        font-weight: bold;
+        padding: 15px;
+        background-color:#3291de;
+    }
+
+    .btn:hover{
+        background-color: #6bb3fc;
+        transition: 0.3s;
+    }
+
+    .btn a{
+        text-decoration: none;
+        color: black;
+    }
+}
