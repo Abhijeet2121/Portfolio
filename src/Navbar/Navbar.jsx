@@ -44,9 +44,6 @@ const Navbar = () => {
                 </p>
             </div>
             <div className='social-links'>
-                <a href="https://www.facebook.com/jeets.tym" target="_blank" rel="noreferrer">
-                    <FacebookIcon className='facebook' sx={{ fontSize: 40 }} />
-                </a>
                 <a href="https://www.instagram.com/abhijeet_kumbhar30/" target="_blank" rel="noreferrer">
                     <InstagramIcon className='instagram' sx={{ fontSize: 40 }} />
                 </a>
