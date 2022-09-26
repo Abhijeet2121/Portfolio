@@ -1,6 +1,7 @@
 .Portfolio-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 15px 30px;
     background-color: #fff;
@@ -10,6 +11,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 50px;
+        margin-bottom: 30px;
     }
     .projects{
         display: flex;

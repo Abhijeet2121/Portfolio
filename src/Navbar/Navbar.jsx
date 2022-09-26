@@ -1,12 +1,8 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import GitHubIcon from '@mui/icons-material/GitHub';
-
+import Social from "../Social-liinks";
 import "./Navbar.scss"
+
 const Navbar = () => {
 
     return (
@@ -43,17 +39,8 @@ const Navbar = () => {
                     Frontend-Devloper
                 </p>
             </div>
-            <div className='social-links'>
-                <a href="https://www.instagram.com/abhijeet_kumbhar30/" target="_blank" rel="noreferrer">
-                    <InstagramIcon className='instagram' sx={{ fontSize: 40 }} />
-                </a>
-                <a href="https://www.instagram.com/abhijeet_kumbhar30/" target="_blank" rel="noreferrer">
-                    <TwitterIcon className='twitter' sx={{ fontSize: 40 }} />
-                </a>
-                <a href="https://github.com/Abhijeet2121" target="_blank" rel="noreferrer">
-                    <GitHubIcon className='github' sx={{ fontSize: 40 }} />
-                </a>
-            </div>
+
+            <Social/>
 
         </>
     )

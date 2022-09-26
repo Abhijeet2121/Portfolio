@@ -1,27 +1,28 @@
+import Social from '../Social-liinks';
 import './contact.scss'
 
 const Contact = () => {
-    return(
+    return (
         <div className='footer-container' id='Contact'>
-                    <h1>Contact Me</h1>
+            <h1>Contact Me</h1>
             <div className='contact-container'>
-                    <div>
+                <div>
                     Call Me :-
-                <a href='tel:+919881898026'>
-                     <span> +919881898026</span></a>
-                     </div>
-                    <br></br>
-                    <div>
-                    Email To :-
-                <a href='mailto:kumbhaabhijeetv@gmail.com'>
-                    <span> kumbharabhijeetv@gmail.com</span>
-                </a>
+                    <a href='tel:+919881898026'>
+                        <span> +919881898026</span></a>
                 </div>
+                <div>
+                    Email To :-
+                    <a href='mailto:kumbhaabhijeetv@gmail.com'>
+                        <span> kumbharabhijeetv@gmail.com</span>
+                    </a>
+                </div>
+            <Social/>
             </div>
-            <div>
-                <h4>
-                 2022 @ Abhijeet Kumbhar
-                </h4>
+            <div className='Copyright'>
+                <h6>
+                    2022 @ Abhijeet Kumbhar
+                </h6>
             </div>
         </div>
     )
