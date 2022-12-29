@@ -4,7 +4,23 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 30px;
-    height: 300px;
-    width: 700px;
+    margin-top: 2rem;
+    height: 19rem;
+    width: 44rem;
+}
+
+@media screen and (max-width : 790px) {
+    .About-container{
+        padding: 1rem 1.5rem;
+        font-size: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        width: 36rem;
+
+    }
+}
+
+@media screen and (max-width : 640px) {
+    .About-container{
+        width: 28rem;}
 }

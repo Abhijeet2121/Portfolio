@@ -3,26 +3,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
 }
 
 .skill-container{
-    padding: 15px 30px;
+    padding: 1rem 2rem;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
-    gap: 50px;
+    gap: 3rem;
     font-family:'teko';
     font-weight: 300;
     
     .skill-card{
         margin: auto;
-        padding: 10px;
+        padding: .5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 250px;
-        width: 250px; 
-        border-radius: 9px;        
+        height: 16rem;
+        width: 16rem; 
+        border-radius: .5rem;        
         position: relative;
     }
     
@@ -53,4 +53,14 @@
 
 .git{
     background-color: #4f5050;
+}
+
+@media screen and (max-width : 790px) {
+.skill-container{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    font-family:'teko';
+    gap: 1.5rem;
+    margin-bottom: 2rem;}
 }

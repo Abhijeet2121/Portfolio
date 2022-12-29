@@ -2,14 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 20px;
+    padding: 1rem 1.5rem;
     top: 0%;
     // position: sticky;
     
     .nav-links{
         display: flex;
-        gap: 20px;
-        font-size: 18px;
+        gap: 1.5rem;
+        font-size: 1.5rem;
         font-weight: bold;
         cursor: pointer;
     }
@@ -24,16 +24,16 @@
 }
 
 .Main-Content{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     margin-left: 15%;
     margin-top: 9%;
 }
 .social-links{
     display: flex;
-    gap: 15px;
+    gap: 1rem;
     margin: 10% 0 10% 15%;
-    height: 20px;
+    height: 1.5rem;
 
     .facebook{
         color: #0000ff;
@@ -50,4 +50,47 @@
     .github{
         color: #808080;
     }
+}
+
+@media screen and (max-width : 790px) {
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        top: 0%;
+
+    .nav-links{
+        display: flex;
+        gap: 1rem;
+        font-size: 1.2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+  }
+}
+
+@media screen and ( max-width: 640px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 1.5rem;
+    }
+
+        .nav-links{
+            display: flex;
+            flex-direction: column;
+            font-size: 1.5rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .Main-Content{
+            font-size: 2.4rem;
+            font-weight: bold;
+            margin-left: 15%;
+            margin-top: 9%;
+        }
+    
 }

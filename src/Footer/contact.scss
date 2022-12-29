@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
 }
 
 .contact-container{
@@ -12,7 +12,7 @@
     align-items: center;
     justify-items: center;
     // gap: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 
     & a{
         text-decoration: none;
@@ -28,4 +28,18 @@
 
 .Copyright{
     color: #b9b9b9;
+}
+
+@media screen and (max-width : 790px) {
+
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        // justify-content: center;
+        // justify-items: center;
+        // align-items:flex-start;
+        gap: 1rem;
+    }
+
 }
